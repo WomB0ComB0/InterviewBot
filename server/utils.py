@@ -1,4 +1,15 @@
 import logging
+import time
+import uuid
+
+
+def generate_uuid() -> str:
+    return uuid.uuid4().hex
+
+
+def time_now() -> int:
+    return int(time.time())
+
 
 # build and return a new logger instance
 def new_logger(name: str) -> logging.Logger:
