@@ -1,5 +1,5 @@
 from flask import Blueprint, jsonify, Response
-from server.clients.cohere import CohereClient
+from server.cohere.client import CohereClient
 
 # resource to handle the endpoints related to interviewing
 class InterviewResource(Blueprint):
