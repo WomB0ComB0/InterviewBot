@@ -64,6 +64,7 @@ inputs = [
     "I've been honing in on my craft - manging larger and larger teams in order to get more experience as a project manager. Five years from now, I am confident I will be in a director role overseeing operations."  # good
 ]
 
+
 response = co.classify(
     model='medium',  # Consider changing to large?
     inputs=inputs,
