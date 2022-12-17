@@ -1,0 +1,639 @@
+{
+    [
+        {
+            "prompt": "Tell me about yourself",
+            "sampleResponses": [
+                [
+                    "Well, I’ve always been interested in tech. But it all probably started when I was a kid, and at the age of 9 I first got my computer. I always loved playing around with code and learning new things. But it wasn’t until that high school where I first had my first class about it that really made me fall in love with the subject. Since then, I started learning more about it and decided to major in IT at University X where I learned how to.",
+                    "Bad"
+                ],
+                [
+                    "I’m an experienced, passionate business leader and inventor. I drive my team to be innovative and get results. I’ve mastered the craft of business development. I’ve really seen it all and have done every kind of deal imaginable.",
+                    "Bad"
+                ],
+                [
+                    "I’ve always been really interested in computers. I guess for the past nine years now I’ve been a programmer, but my passion for tech started way back when I was a kid. I’ve always loved monkeying around with code, but it wasn’t until I moved to Arizona that I tried to make a living off it. I got really into it and I can’t imagine doing anything else.",
+                    "Bad"
+                ],
+                [
+                    "Well, I’ve been a receptionist for the past seven years and I love it. You know, interacting with all the people and taking calls and just working with people in general. I’m a people person. I love the back and forth and energy. Even on my days off I love hanging out with friends and being around family. I’m also a hard worker and I’m very dependable.",
+                    "Bad"
+                ],
+                [
+                    "I am 44, from NY, work in Human Resources. No kids, 2 dogs. Shy until I am comfortable. I love dogs and cats, bilingual and love prime time cops shows such as FBI, Blue bloods, amd criminal minds.",
+                    "Bad"
+                ],
+                [
+                    "Sure, so, my name is Joe and I am 27 years old. For the past 5 years, I’ve been working as a business analyst at Company X and Y.I have some background in data analysis, with a degree from University XY. What really got me into the field, though, is the internship I did at Company Z. Throughout my career, I’ve noticed that I’ve always been good with numbers and handling data. For example, when I was working at Company X, I led a project for migrating all operations data to a new data warehousing system to cut down on costs. The new solution was a much better fit for our business, which eventually led to savings of up to $200,000 annually. Moving forward, I hope to expand my experience across different industries. Particularly fintech, which is why I’m interested in your company.",
+                    "Good"
+                ],
+                [
+                    "Sure, I’d be glad to. I’m an tech-focused project manager for up to 8 years now. I graduated from University X, where I made the Dean’s List, with a major in business administration and a minor in computer science. After that, I first got into the industry working as an administrative assistant at Company X. There I provided clerical support with interdepartmental communication, helped in managing schedules, and maintained the digital filing system. After that, I was working as a project manager for Company Y that provided cloud computing solutions for about 6 years. There, I personally managed 5+ teams of software projects, and made sure everything went smoothly in terms of business goals, deadlines, budget, and more. In my downtime, I enjoy reading about AI, tech, and robotics. Since you guys do all 3, I thought I’d apply. ",
+                    "Good"
+                ],
+                [
+                    "My name is Jane Doe, I’m 22 years old and I recently graduated from University X with a B.A. in international business. While there, I learned a lot of theory in subjects like corporate communication, international economics, corporate governance, and more. I was also part of the student government, and maintained a GPA of 3.6. I’ve worked hard in my education and now I’m ready to apply my knowledge into practice. While I don’t have any real-life work experience, I’ve had a lot of exposure to the business environment. A lot of my courses involved working with real companies to solve real problems. Now, I’m looking to leverage everything I’ve learned in uni and get some hands-on work experience. So, my name is John, and I’m a senior at School XYZ.  This year, I managed to maintain a 3.7 GPA, while working on a few different school projects. I started an ‘Ernest Hemingway Book Club’ which has up to 15 active members as of now. And I also launched a recycling program for the campus, through which we raised awareness and invited an outside guest lecturer to speak about the subject. I tend to be teamwork-oriented and reliable, as I’ve never missed a deadline. I’m also proud of my ability to preserve and overcome any challenges as they come up. For example, last year, I was having some trouble with trigonometry. I realized I needed to dedicate more time to the subject, so, I met with a teacher outside the class and set aside two extra hours per day for the subject. Eventually, I ended up with an A in the subject. At University X, I’m planning to either major in English or Journalism. I love reading and writing, so I think both programs are going to be interesting and relevant to my interests.",
+                    "Good"
+                ],
+                [
+                    "Hey! So, my name is John Doe and I’ve worked as a business analyst for 5+ years in Company X and Company Y. I have some background in data analysis, having studied Information Systems at [Made-Up] University. Throughout my career, I’ve done some pretty impressive stuff (if I do say so myself, haha). For example, at Company X, I led a project for migrating all operations data to a new data warehousing system to cut down on costs. The new solution was a much better fit for our business, which eventually led to savings of up to $200,000 annually. I am Jane Doe, a recent college graduate from the University of Wisconsin-Madison. I have just graduated with honors in Biochemistry. I know my way around a lab and have had multiple opportunities to put my knowledge into practice as a chemistry research assistant. The lab felt like home, which is why I’d love to work as a lab assistant. I am passionate, hard-working, and extremely responsible. I am also looking forward to putting to practice all the things I learned during my time at university.",
+                    "Good"
+                ],
+                [
+                    "Sure! So I've always enjoyed writing and public speaking, even as far back as high school. This led me to pursue writing-related passions—for example in college, where I was an editor for our school newspaper. In addition to writing, I got to learn how to manage a team and how to approach the writing process. After college, I took a job at Acme as a social media manager, writing copy and social content for the company blog, but I raised my hand to work on the communications plan for a product launch, which is where I discovered my interest in product marketing. After switching to a product marketing role and managing the two most successful new product launches last year, I realized I'm excited to take on a new opportunity. I've learned I work best on products that I love and use, and given that I'm a big user of your company’s products, I jumped at the chance to apply when I saw the open posting",
+                    "Good"
+                ],
+                [
+                    "Well, I’m currently an account executive at Smith, where I handle our top performing client. Before that, I worked at an agency where I was on three different major national healthcare brands. And while I really enjoyed the work that I did, I’d love the chance to dig in much deeper with one specific healthcare company, which is why I’m so excited about this opportunity with Metro Health Center.",
+                    "Good"
+                ],
+                [
+                    "I've been in the marketing industry for over five years, primarily working in account and project management roles. I most recently worked as a senior PM for a large tech company managing large marketing campaigns and overseeing other project managers. And now I'm looking to expand my experience across different industries, particularly fintech, which is why I'm so interested in joining an agency like yours.",
+                    "Good"
+                ],
+                [
+                    "Absolutely! I graduated from Howard in May with a major in computer science and a minor in theater arts and have been spending this summer interning at a theater nonprofit. I’ve had a chance to put my coding skills to good use by helping revamp the organization’s ticket sales page. Since it launched two weeks ago, the time it takes patrons to get through the purchasing process has decreased by 43% and scores on a popup satisfaction survey have gone up by nearly 20%. It’s been particularly exciting to be immersed in this environment because I’ve been in love with theater since I did my first school play in 7th grade—it was 13: The Musical and I landed the role of Patrice—and even led The Howard Players my senior year. This internship experience has only reinforced my desire to merge my CS skills with my passion for theater, which is why I knew I had to apply as soon as I saw the junior web developer role here.",
+                    "Good"
+                ],
+                [
+                    "I’ve spent the first decade of my career working in account management for SaaS startups selling B2B software, including my current company, which develops remote collaboration tools. And for the last couple of years I’ve been managing three to five direct reports. I’ve found people management incredibly fulfilling, and have been especially drawn to training and professional development. One of the accomplishments I’m proudest of in my job now was creating a series of upskilling workshops not just for my own team but for the entire revenue org. Account managers and sales reps who participated showed an average increase of 22% in sales or renewal revenue per quarter. Looking back, it makes so much sense that I’ve gravitated in this direction, considering I tutored and led workshops for the comms department in college. As I’ve thought about my next steps, I realized I wanted to transition into an HR role so that I can focus all of my energy on creating and implementing training programs. I can’t think of a better place to start than at a company that makes software I’ve relied on in multiple previous jobs.",
+                    "Good"
+                ],
+                [
+                    "I’ve been working as an administrative assistant for three years. At my current job in the finance department of a midsize company, I handle scheduling, meeting and travel planning for four executives and 20 staff members. I also help prepare correspondence, presentations and reports.",
+                    "Good"
+                ],
+                [
+                    "I’m known for being a detail-oriented, well-organized team player. I never miss deadlines, I’m a good communicator and I can juggle multiple tasks at once. In my performance reviews, my supervisor always notes that he appreciates my professionalism and enthusiasm for the job.",
+                    "Good"
+                ],
+                [
+                    "With this experience under my belt, I’m looking for an opportunity to take the next step in my career. I’m hoping to do so in an organization like yours that works to improve the environment, which is something I’m passionate about.",
+                    "Good"
+                ],
+                [
+                    "Before [Company Y] at [Company X], I was in customer service. I used to answer 100 tickets a day resolving customer issues. This experience helped me develop empathy for users. I learned how to put myself in the user’s shoes, which has helped me write better product value propositions that resonate with users.",
+                    "Good"
+                ],
+                [
+                    "When I’m not working, I like to spend time exploring with my dogs. I take them hiking, visiting historical sites, or even just walking around town. A surprising number of people are drawn to dogs, and I always enjoy talking with who I meet. I feel that communication is one of the most important aspects of my professional life as well. When talking with people, being able to guide the conversation in a particular direction is one of the ways I’ve been successful in different situations at the office.",
+                    "Good"
+                ],
+                [
+                    "I participate in charity walks several times a year. Recently, I did the Walk for Hunger and I have a few events planned for the summer and fall, as well. I walk for exercise with friends after work and on the weekends. I enjoy the fresh air, learning new routes, and connecting with new people. I also like the fundraising aspect, which has come in handy in my job. I’ve learned how to connect with people to increase their commitment to the cause.",
+                    "Good"
+                ],
+                [
+                    "The past few years, I’ve gotten really into geocaching. I love the challenge of finding caches and spending time outdoors with friends. I like using my problem-solving skills to find the ones that are really well-hidden. Learning how people hide things—and where people are likely to look—has helped me tremendously in my design work. It’s all about learning to see things through someone else’s eyes.",
+                    "Good"
+                ],
+                [
+                    "(1) I really enjoy providing robust software solutions. (2) I’ve led a software engineering team of 10 programmers at Xyzzy Solutions for three years. (3) Our proudest moment was receiving the 2018 Bossie award. (2) Before that I worked for two years as a software engineer at SurgeWallop. (3) I slashed security breaches 70% by winning full employee buy-in for our Principle of Least Privilege drive. (4) It’s been a great run, but I’m chafing at the bit to sink my teeth in with a high-performing DevOps team like the one at Brass LAMP Dev.",
+                    "Good"
+                ],
+                [
+                    "Well, I thrive in the excitement of a fast-paced office. As a receptionist at Drake & Caswell, I loved interacting with our 200 regular clients and managing training and travel schedules for 25 employees. Before that at Mindon Well Drilling, I really enjoyed being the contact point for hundreds of client calls and visits every week. In fact, I saved 20 management hours a month by triaging calls and emails. Those were great opportunities, but I’m at the point where this position at Maven Consulting Solutions would really let my talents shine.",
+                    "Good"
+                ],
+                [
+                    "I thrive in a fast-paced office where I can work on ratcheting up efficiency. At Castle Rock Mineral we often had over 100 customers a day come through the doors. I was able to cut scheduling errors by 25% and resolve complaints 50% faster than the previous assistant. Before that at TD Dental, I helped raise patient satisfaction scores 20% by streamlining our intake flow. I’m ready to grow into a position where my efficiency can make a difference to a larger team. That’s why I’m so excited about this role.",
+                    "Good"
+                ],
+                [
+                    "I’m a prolific web developer. At ExamTeam5, I regularly completed full-stack development for websites in 7 or 8 weeks. I cut delivery times at VerifEye Solutions by 30%. I enjoyed both positions, but HF7 Technologies is well-known for its aggressive work schedule. I think my productivity would really be valued here.",
+                    "Good"
+                ],
+                [
+                    "I love using my talents to bring more business to a worthy product. I worked as marketing manager at Ninequist Interactive for three years. During that time, my team and I presided over a period of 40% revenue growth. Before that at Spintegrity, I was able to increase conversions for email campaigns by 25%. I’m ready for a bigger challenge, and I would thrive in a fast-growing tech firm like Sequoia5 Global.",
+                    "Good"
+                ],
+                [
+                    "I really enjoy working as an OR nurse. For three years at Chrontos Medical, I received consistent commendations for my performance in the peri-operative setting. Before that at Barstow General, I was first-choice for the team of 15 surgeons. I’ve enjoyed every step along the way. Mass General was my first choice when I moved East because of your reputation for high-level health care in a safe, compassionate environment.",
+                    "Good"
+                ],
+                [
+                    "When I’ve got a product I believe in, I excel at selling it. I’ve loved working as a sales associate at Peterboro-Munchen for the past two years. The job gave me an opportunity to increase revenue by over $100,000 a year for some of the best pumps and hoses on the market. Before that at Belsden Group, I consistently outsold the other ten reps by 10% to 15%. Again, great product. Those were both great positions and I learned a lot, but now I really want to show what I can do. You’ve got the most respected, highest value security systems in the world, and a big market to sell them in. I’m very excited at the chance to use my skills to put your revenue through the roof.",
+                    "Good"
+                ],
+            ]
+        },
+        {
+            "prompt": "What are your strengths?",
+            "sampleResponses": [
+                [
+                    "What are my strengths? Where do I begin? I’m Superman. I mean look. I take off my glasses - Superman. I put them back on - Clark Kent. You can see it. Yeah, you can! Plus, I’m so good at stuff that you’ll think I’m a psychic. I’ll get work done before there is work to do.  I can already guarantee you that I’m better than all your other employees combined",
+                    "Bad"
+                ],
+                [
+                    "What are my strengths? Well, I guess I’m pretty good at breathing? I don’t know. That’s what my mom said. She’s usually right about stuff. So, I guess yeah. I guess I could say I’m a good breather.",
+                    "Bad"
+                ],
+                [
+                    "I guess that I’m a strong people person as long as I don’t have to write emails and can talk to that person face-to-face.",
+                    "Bad"
+                ],
+                [
+                    "My strengths? Where do I start? I’m great at customer service, organizing stuff, writing, sales, and marketing. Oh! I almost forgot. I can also administer medication to large domestic animals.",
+                    "Bad"
+                ],
+                [
+                    "My greatest strength is administering assistance.",
+                    "Bad"
+                ],
+                [
+                    "Well, I’m not all that bad at throwing together an Excel spreadsheet. I can do a Powerpoint presentation now and then. I guess my other strengths are making coffee, stapling things, and typing. Oh yeah, and I can open emails, talk on the telephone, send emails, and use scissors.",
+                    "Bad"
+                ],
+                [
+                    "Without wanting to appear self-indulging, I do tend to have a good sense of humour and am lighthearted so most people enjoy my company. I also genuinely care about people and therefore most people feel comfortable around me. Just don't make me angry because you'll be in for a surprise.",
+                    "Bad"
+                ],
+                [
+                    "Strengths: I'm really good at spacing off, spinning in my office chair, typing really fast (questionable accuracy), making tea, using pens as drumsticks, using pens as projectiles, using pens as pens, turning staple removers into dragons and other mythical creatures, and taking breaks.",
+                    "Bad"
+                ],
+                [
+                    "Whenever new software is released, I’m always the first one to test and get familiar with it. I love pushing the edge and learning every aspect of the new software. In fact, just last week I found a software issue with one of my video games. I called the developer, and they fixed it right away. This position will give me the opportunity to apply my passion and help make programs better for your company. ",
+                    "Good"
+                ],
+                [
+                    " I’ve always preferred to work in groups and find that my collaborative nature is one of my strongest attributes. On projects that I directed, I work well to inspire diverse team members and work side by side with them to achieve the project goals. In fact, I’ve increased productivity by ten percent over the course of two years. ",
+                    "Good"
+                ],
+                [
+                    "My greatest strength is my writing skills. I work well under pressure, and I've never missed a deadline. One specific example that comes to mind is when I was asked to complete a project that a fellow colleague forgot about. My editor didn’t realize this until two hours before the deadline. It was an important piece, so I got to work, and with feverish precision, I was able to complete the article. Not only was it finished on time, but it was received very well by readers of the publication.",
+                    "Good"
+                ],
+                [
+                    "I’m relatively new to the finance industry, but I find that I’m good at working with numbers and I truly love it. I love helping people save money and finding new investment opportunities for my clients. Learning about their needs and finding ways to help them achieve the lifestyle they want is so gratifying to me, and I’ve helped my clients increase their net worth by 10% collectively. ",
+                    "Good"
+                ],
+                [
+                    "I’m an empathetic person who is skilled at relating to people and understanding their needs. At my internship over the summer, I was working the support line and received a call from a disgruntled customer who had been dropped from our service. While the company couldn’t find a solution for her, I walked her through other options she might have so she walked away with a positive interaction with the company. I know the importance of a happy customer, and I'm willing to remain upbeat and solutions-oriented.",
+                    "Good"
+                ],
+                [
+                    "I believe that my greatest strength is the ability to solve problems quickly and efficiently. I can see any given situation from multiple perspectives, which makes me uniquely qualified to complete my work even under challenging conditions. That problem solving allows me to be a better communicator. I am just as comfortable speaking to senior executives as I am junior team members. I think my ability to see all sides of an issue will make me a great asset to the team.",
+                    "Good"
+                ],
+                [
+                    "I know the industry inside and out. After working in sales and marketing for over 15 years I know I have the skills to maximize your marketing dollars and improve your bottom line. In fact, when I started at my last company, their sales were declining, and under my leadership, I was able to increase revenue in consecutive years, by 7% and 5%, respectively.",
+                    "Good"
+                ],
+                [
+                    "My strongest asset is my work ethic and my willingness to step in when needed. I’m not afraid to take on a difficult client or do a project that nobody else wants because those are the clients and projects that teach me the most. I typically love to work outside of my job description and do whatever is asked of me. I'm not above any single task, and I take great pride in my ability to step in and adapt to any situation to get the best results for the company.",
+                    "Good"
+                ],
+                [
+                    "My biggest strength is that I’m good at picking up new skills. I’ve worked a variety of different odd jobs - things like working as a waiter, house-keeper, cook, and a lot more (as you’ve probably seen on my resume). For most of those jobs, I ended up picking up all the needed skills within 1 or 2 weeks (with basically no previous experience). So, I’m pretty sure while I don’t have any experience as a bartender, I have the right certification, and I believe I can get good at it within a week or two.",
+                    "Good"
+                ],
+                [
+                    "My biggest strength is that I’m very efficient at working under pressure. No matter the crisis or stress, I can make the right decisions on-the-spot. As an event manager at Company X, we were organizing an IT conference for a client. There were a ton of last-minute hiccups - some speakers canceled and the catering company said they’d be late for the lunch break. On top of that, we were understaffed because 2 of our volunteer organizers got sick and couldn’t show up. At that point, things looked so bleak that we were considering canceling the event or postponing it. Instead, I took the initiative in my hands and sorted through the problems one by one.",
+                    "Good"
+                ],
+                [
+                    """My greatest strength is my writing skills. I can also work to tight deadlines under pressure. For example, I was once asked to complete a project that fell through the cracks. My editor discovered the mistake two hours before the deadline. It was an important piece that gave our publication a scoop on the topic in question. Not only did the piece have to go out on time, but it had to be perfect. I hunkered down and wrote. The result? The article was on time and acclaimed.""",
+                    "Good"
+                ],
+            ]
+        },
+        {
+            "prompt": "What is your greatest weakness?",
+            "sampleResponses": [
+                [
+                    "Lorem Ipsum",
+                    "Good"
+                ],
+                [
+                    "Lorem Ipsum",
+                    "Good"
+                ],
+                [
+                    "Lorem Ipsum",
+                    "Good"
+                ],
+                [
+                    "Lorem Ipsum",
+                    "Good"
+                ],
+                [
+                    "Lorem Ipsum",
+                    "Good"
+                ],
+                [
+                    "Lorem Ipsum",
+                    "Good"
+                ],
+                [
+                    "Lorem Ipsum",
+                    "Good"
+                ],
+                [
+                    "Lorem Ipsum",
+                    "Good"
+                ],
+                [
+                    "Lorem Ipsum",
+                    "Good"
+                ],
+                [
+                    "Lorem Ipsum",
+                    "Good"
+                ],
+                [
+                    "I tend to be overly critical of myself. Whenever I complete a project, I can’t help but feel that I could have done more even if my work received a positive response. This often leads me to overwork myself and leaves me feeling burned out. Over the past few years, I’ve tried to take time to look at my achievements objectively and celebrate those wins. This has not only improved my work and my confidence, but it has helped me to appreciate my team and other support systems that are always behind me in everything I do. ",
+                    "Good"
+                ],
+                [
+                    "I am incredibly introverted, which makes me wary of sharing my ideas in a group setting or speaking up during team meetings. I feel that I had good intentions, I just wasn't always comfortable speaking up. After my team didn’t meet expectations on two consecutive projects, I decided to start making changes to get more familiar with sharing my ideas for the benefit of my team. I took local improv classes and started trying to get comfortable discussing my thoughts. It's still a work in progress, but it's something that I've improved dramatically over the past year.",
+                    "Good"
+                ],
+                [
+                    "I tend to want to take on complete projects all on my own without any outside help. In the past, this caused me to experience unnecessary pressure and stress. One specific example was last year when I was responsible for planning our annual event. I tried to do everything on my own, from the most substantial decisions like the venue to the tiniest things like organizing the table settings. I was so stressed leading up to the event, and I narrowly pulled it off. This taught me to take a step back and analyze when I need help. After that experience, I am trying to teach myself how to ask for help so I can keep my sanity. I've also found a team of people can produce a better outcome than one harrowed person. ",
+                    "Good"
+                ],
+                [
+                    "I'm not familiar with the latest version of the software that you use. I’ve spent my time recently focused on generating a positive user experience and have always been willing to learn new things. Throughout my career software has always changed and I’ve always been willing to adapt to changing technology. I will put in the time it takes to learn this new software. ",
+                    "Good"
+                ],
+                [
+                    "I always try to avoid confrontation, in both my personal and professional life. This caused me to compromise sometimes on the quality of my work or what I needed to complete a project just to keep the peace. This became a real problem when I became a manager. One of the most critical aspects of managing people is telling them what they need to hear and not what they want to hear. I recognized this weakness and had been actively working to voice my opinions constructively and helpfully for the betterment of the team.",
+                    "Good"
+                ],
+                [
+                    "When I’m given a task, I am very goal-oriented and work hard to complete that task. However, when new projects come across my plate, I sometimes jump right into those projects and halt work on the projects I had in progress. Having to jump between tasks, so many times throughout the day hinders my productivity and prevents me from delivering my best work. I have been using a project management tool to help me manage my tasks and my time, which has helped me become more aware of prioritization. Since implementing this project management mentality, I have only improved my efficiency and productivity.",
+                    "Good"
+                ],
+                [
+                    "My biggest weakness has always been my communication skills. I’ve been pretty shy and anxious as a kid. Over the years, however, I’ve been really working on the issue. At this stage, I’m much better than I’ve ever been, but I’m still far from perfect. This, however, won’t have any impact on my job as a programmer. Despite lacking communication skills, I’m very good at working in a team.",
+                    "Good"
+                ],
+                [
+                    "Well, as a recent graduate, I’d say my biggest weakness is the lack of real-life work experience. While I’ve worked on a dozen software projects in the university, I don’t have the experience of working in a fully agile environment with an experienced team. I am, however, willing to do my best and catch up as fast as I can.",
+                    "Good"
+                ],
+                [
+                    "I don't have much patience when working with a team — I am incredibly self-sufficient, so it's difficult when I need to rely on others to complete my work. That's why I've pursued roles that require someone to work independently. However, I've also worked to improve this weakness by enrolling in team-building workshops. While I typically work independently, it's important I learn how to trust my coworkers and ask for outside help when necessary",
+                    "Good"
+                ],
+                [
+                    "I struggle with organization. While it hasn't ever impacted my performance, I've noticed my messy desk and cluttered inbox nonetheless interfere with my efficiency. Over time, I've learned to set aside time to organize my physical and digital space, and I've seen it improve my efficiency levels throughout the week.",
+                    "Good"
+                ],
+                [
+                    "I sometimes find it difficult to delegate responsibility when I feel I can finish the task well myself. However, when I became manager in my last role, it became critical I learn to delegate tasks. To maintain a sense of control when delegating tasks, I implemented a project management system to oversee the progress of a project. This system enabled me to improve my ability to delegate efficiently.",
+                    "Good"
+                ],
+                [
+                    "Oftentimes, I can be timid when providing constructive feedback to coworkers or managers, out of fear of hurting someone's feelings. However, in my last role, my coworker asked me to edit some of his pieces and provide feedback for areas of improvement. Through my experience with him, I realized feedback can be both helpful and kind when delivered the right way. Since then, I've become better at offering feedback, and I've realized that I can use empathy to provide thoughtful, productive feedback.",
+                    "Good"
+                ],
+                [
+                    "My blunt, straightforward nature has allowed me to succeed over the years as a team manager, because I'm able to get things done efficiently, and people often appreciate my honesty. However, I've recognized my bluntness doesn't always serve my employees well when I'm delivering feedback. To combat this, I've worked to develop empathy and deeper relationships with those I manage. Additionally, I took an online leadership management course, and worked with the professor to develop my ability to deliver feedback.",
+                    "Good"
+                ],
+                [
+                    "Public speaking makes me nervous. While I don't need to do much public speaking in my role as a web designer, I still feel that it's an important skill — especially when I want to offer my opinion during a meeting. To combat this, I spoke with my manager and she recommended I speak at each team meeting for a few minutes about our project timeline, deadlines, and goals when developing a website for a client. This practice has enabled me to relax and see public speaking as an opportunity to help my team members do their jobs effectively.",
+                    "Good"
+                ],
+                [
+                    "I'm not great at analyzing data or numbers. However, I recognize this flaw can prevent me from understanding how my content is performing online. In my last role, I set up monthly meetings with the SEO manager to discuss analytics and how our posts were performing. Additionally, I received my Google Analytics certificate, and I make it a point to analyze data related to our blog regularly. I've become much more comfortable analyzing data through these efforts.",
+                    "Good"
+                ],
+                [
+                    "Sometimes I struggle with ambiguity and making decisions when directions aren't clear. I come from a work environment that always gave clear and direct instructions. I had such a strong team and leadership that I haven't had much practice making decisions in the heat of the moment. I'm working on this by leaning more into my experience and practicing listening to my gut",
+                    "Good"
+                ],
+                [
+                    "My inner critic can be debilitating at times. I take pride in producing good work, but I feel like I struggle feeling satisfied with it, which has led to burnout in the past. However, I've started to push back against this inner voice by taking care of myself before and after work. I'm also learning to recognize when my inner critic is right and when I need to dismiss it.",
+                    "Good"
+                ],
+                [
+                    "I used to work in industries where I had to cultivate a solid work ethic in my employees. This style of training has been so ingrained in me that I've forgotten to discern who may need that coaching and who does not. I've been reading books on effective delegation and team building to work on this shortcoming. One technique that works for me is assuring myself that if I establish clear expectations, then my team will follow. I've also learned to trust my team members.",
+                    "Good"
+                ],
+                [
+                    "I enjoy developing a relationship with my coworkers by engaging in conversation, and that's a great team-building skill. However, I have a habit of carrying on a conversation to a point where it may distract other coworkers. I have learned since then that there are other ways to connect with my coworkers, and that if I'm asking about their day, I need to keep it brief and redirect myself back to my work.",
+                    "Good"
+                ],
+                [
+                    "I've struggled with work-life balance, especially after I started working remotely during the pandemic. This increased my stress levels to the point where my productivity was at an all-time low and I didn't bring my best self to work. Because I want to continue working remotely, I've started adding more structure to my day and instituted a sharp start and end time. I've already seen improvements in my levels of focus during work hours.",
+                    "Good"
+                ],
+            ]
+        },
+        {
+            "prompt": "Where do you see yourself in 5 years?",
+            "sampleResponses": [
+                [
+                    "Finally done with college, wrapping up a masters, working full time, and one year ETS'd out of the Army. I cannot fucking wait.",
+                    "Bad"
+                ],
+                [
+                    "Inshallah starting a doctorate in Anthropology. That or I could be dead you never know.",
+                    "Bad"
+                ],
+                [
+                    "Watching Mr Chickadee on YT makes me want to sell my house and move my family into a forest to build a timber house and live a minimalist life.",
+                    "Bad"
+                ],
+                [
+                    "Either dead, or happier that I worked towards my desires/goals.",
+                    "Bad"
+                ],
+                [
+                    "Dead. I have to have several surgeries to correct 3 old surgeries. I don’t have it in me, it all hurts so much.",
+                    "Bad"
+                ],
+                [
+                    "Hopefully out of America, and in a country that actually gives a shit about the health and well-being of its people.",
+                    "Bad"
+                ],
+                [
+                    "3 kids. Better job. 1 million personal net worth.",
+                    "Bad"
+                ],
+                [
+                    "Hopefully still in my current job with a pay-raise, but living in a different apartment. I like the place, but some neighbors are... difficult.",
+                    "Bad"
+                ],
+                [
+                    "Hopefully in a different city, in a different house. Maybe with a dog.",
+                    "Bad"
+                ],
+                [
+                    "On the cusp of finishing college, hopefully having a boyfriend and planning to move to a rather small but well connected town to start teaching",
+                    "Bad"
+                ],
+                [
+                    "Farm somewhere in the south that I can grow peppers and citrus trees year round if not a much better growing season than where I am now.",
+                    "Bad"
+                ],
+                [
+                    "I'll be sitting where you are, asking some new kid that same question. And you'll be in your cold cold grave.",
+                    "Bad"
+                ],
+                [
+                    "Happier , Healthier. In school, certified in some fields, part time job, savings, decent relationship with friends and fam ; and ready to travel.",
+                    "Bad"
+                ],
+                [
+                    "Hopefully healthier, has a house, has the courage to drive, and either have kid(s) or (still) in the military.",
+                    "Bad"
+                ],
+                [
+                    "Bruh idk where I’ll be tomorrow let alone 5 years",
+                    "Bad"
+                ],
+                [
+                    "Probably jail for public intoxication or I'll still be at my shitty job",
+                    "Bad"
+                ],
+                [
+                    "If we don’t stop rampant capitalism, then in 5-10 years climate change could cause economic collapse (see prof. Rupert Read and Roger Hallam). By the end of the century, if we reach a 4c temperature increase, then according to Dr. Ira Leifer, a leading climate scientist, the answer to “where do you see yourself” is in either Antarctica or the Arctic. Our economy is a Ponzi scheme.",
+                    "Bad"
+                ],
+                [
+                    "5 years older, none the wiser, a lot poorer",
+                    "Bad"
+                ],
+                [
+                    "I'd like to talk to people who answered that question 5 years ago. Betcha nobody thought up the pandemic.",
+                    "Bad"
+                ],
+                [
+                    "In 5 years - owning a home again, published author, and if all goes well finally with someone who loves me the way I can love.",
+                    "Bad"
+                ],
+                [
+                    "I’m exceptionally delighted about being a part of Solution Logics Incorporated because in the next five years, I’d love to be perceived as an expert petrochemical engineer and I believe Solution Logics Incorporated as a leader in the petroleum industry is the best training ground for someone like me who’s willing to contribute to the society. I’m equally excited about the prospects of working with some of the most brilliant minds in Europe.",
+                    "Good"
+                ],
+                [
+                    "Within the next 5 years, I’d like to reach the position of a Senior Business Consultant. During the time period, I would like to accomplish the following: Help 20+ organizations improve their business Create a personal network of highly specialized professionals Learn as much as I can about optimizing and improving clients’ businesses, as well as the essentials of operating a company",
+                    "Good"
+                ],
+                [
+                    """As a start, I want to learn if accounting is the right field for me. While I loved what I studied at the university, I want to see if working in the field feels the same. If I do end up enjoying it, I’d like to specialize in either internal auditing or forensic accounting, as I really like to discover and solve problems. From what I’ve seen from your job ads, you guys are hiring for both, so I hope it’s going to be possible to move up from the position of an "intern" within the next few months!""",
+                    "Good"
+                ],
+                [
+                    """I’m someone who loves solving problems, so in five years, I’d love to be seen as the go-to financial analyst when departments or projects need to save money and achieve their business goals. I will have worked with senior financial analysts to learn from their approaches before taking on a few smaller budgets myself and slowly building up from there. But I will have also completed a few courses on business operations using XYZ Co’s professional development allowance since I want to make sure that any suggestions I make go toward not just saving money, but increasing efficiency and achieving company goals.""",
+                    "Good"
+                ],
+                [
+                    """In five years, I’d like to be in a position where I know more about my longer-term career aspirations as a designer. I will have gotten experience working for a design agency and know more about the industry overall. I’ll have grown my technical skills and learned how to take feedback from clients and incorporate it. And the way your agency is set up, I’ll also have gotten the opportunity to design different kinds of deliverables—including websites, branding, and ad campaigns—for different kinds of clients to see where I really feel at home before settling on a focus.""",
+                    "Good"
+                ],
+                [
+                    "I’ve found that the most rewarding part of working in HR has been when I get to be part of putting together a training or development session—it’s so satisfying to help my coworkers learn something new and useful. So in five years I’d like to be more of an expert in learning and development. I’ll have learned more about what goes into putting together development opportunities for employees and have hopefully coordinated or run some training sessions myself. In a training and development coordinator role like this, I’ll also learn more about how to work with individual employees or teams to identify prime opportunities to upskill and find the best form of training available so I’m delivering programs that are useful to individuals and the org overall. Hopefully, in five years I’ll be helping make decisions about what kinds of programs a business will offer and how to make sure employees are benefitting and growing.",
+                    "Good"
+                ],
+                [
+                    "In five years I would like to expand my horizons by jumping in feet first and learning as much as I can, as quickly as I can, with the organization. From there, I'd seek out opportunities — at least one to two a year — to expand my knowledge through training and educational opportunities to support my job. I'd love to participate in at least one project geared toward leadership training, if the opportunity arises. I also understand that the organization has a strong volunteer team, and I'd like to be an active participant of that team, as well. At some point, I'd also like to be considered for a supervisory or management-level role.",
+                    "Good"
+                ],
+                [
+                    "It’s only been two years since I graduated and began working, but I’d say that my goal in five years is to see significant growth in my sales skills. One of my longer-term career goals is to be involved in sales training and mentoring, maybe as a Manager or corporate trainer, but I know the first step is to master the day-to-day work. So in the next five years, I look forward to continuing to build my sales skills, both in-person and over the phone, and continuing on my current career path as a salesperson. I reviewed your job posting and it seems like this position would offer some great challenges and learning opportunities for someone relatively new in their sales career like myself.",
+                    "Good"
+                ],
+                [
+                    "In the next 5-10 years, I hope to be leading a team or department. I’ve always enjoyed leadership in my career, so growing as a leader is one of my core career goals right now. Your job posting looked exciting and mentions some great leadership opportunities, so I was eager to have a job interview and learn more about this opportunity.",
+                    "Good"
+                ],
+                [
+                    """Since becoming a Project Lead in my last job, I’ve found I really like project management. In five years, I hope to be leading larger projects, or maybe managing multiple project teams. I thought your Senior Project Manager position was a great step in that direction and would provide a nice challenge, while also making use of my 2 + years of prior project leadership experience in this same industry.""",
+                    "Good"
+                ],
+                [
+                    "I’ve actually been developing my five year plan recently. Since I’m looking for an entry level position in social media and content marketing right now, in five years I would like to be a manager or supervisor in this area, or possibly a project manager. So that means that in the next few years, I need to master the fundamentals and hands-on aspects of the role to advance in the future. And then in the very long term outlook for my career, I’d love to branch out into other areas of digital marketing and lead an entire marketing department for my company. This position seems like a great fit for my five-year goal, based on what I saw on the job description, so I was eager to come have an interview to learn more.",
+                    "Good"
+                ],
+                [
+                    "In five years, I see myself continuing to grow in my career and taking on more responsibility within the company by leveraging the expertise I’ve gained working in this industry for the past 5 years. I’m also looking to start a family in the next few years, so I’ll be balancing work and home life. I think that my career goals and personal goals will complement each other nicely and help me to achieve a healthy work-life balance.",
+                    "Good"
+                ],
+                [
+                    "I see myself in a leadership position, helping to lead and develop a productive and successful team. I believe I’m uniquely positioned for this career path I’ve consistently met or exceeded sales goals in every position I’ve held. I would also like to continue developing soft skills and technical skills by taking on additional training opportunities. I think that being in a management position will give me the opportunity to do both of these things.",
+                    "Good"
+                ],
+                [
+                    "In five years, I see myself as an integral part of the company who has helped contribute to the growth and success of the organization. I would like to continue developing my skills and knowledge in order to be able to take on more responsibility within the company. I’m also looking forward to taking on more leadership roles and mentoring other members of the team by utilizing the leadership and mentorship certifications I’ve completed.",
+                    "Good"
+                ],
+                [
+                    "In five years, my goal is to successfully obtain two certificates that are related to my position. I took some time to review your website before this interview, and I noticed that you offer your employees education advancement opportunities that include pursuing certifications to further their careers. Using the resources your company provides its employees, I truly believe that I can pursue my career goals and eventually move into a management position within your organization over the next few years.",
+                    "Good"
+                ],
+                [
+                    "My ultimate goal for the next five years is to master my position and advance into a managerial role within my department. I was drawn to the personalized training approach your company outlines on its website, and I truly believe this approach to training will allow me to learn new skills and grow within this position. Over the next five years, I see myself taking on new and exciting projects within your company that will prepare me for a management role with the organization.",
+                    "Good"
+                ],
+                [
+                    "A few of the goals I’ve set for myself over the next few years include leading a writing team and gaining new project management skills within my position. I’m excited about the opportunities this job would provide me, as I believe they will support my long-term career goals and allow me to grow within your company and give back by utilizing the skills I’ll gain.",
+                    "Good"
+                ],
+                [
+                    "As a freelance writer working with several major tech companies on blog and website content, I feel like my knowledge of SEO is still limited as I often require assistance. That’s why one of my short-term goals is to complete an SEO course and become fully independent in SEO tools like Moz, Semrush or Ahrefs. That will also allow me to enhance my service portfolio.",
+                    "Good"
+                ],
+                [
+                    "After changing jobs for the last three years, my biggest career goal right now is to gain some career stability. I really enjoy my work in [Company] – I think it’s challenging, exciting, and fun. I also have the perfect work-life balance, which I greatly appreciate now that I’m in my forties and have a growing family.",
+                    "Good"
+                ],
+                [
+                    "One of my biggest career goals is to improve my presentation skills and master public speaking. I think there’s an imbalance between my technical knowledge and the way I organize and verbalize my thoughts. Getting good at speaking in front of a group would help me with some of my long-term career goals, such as getting a leadership position.",
+                    "Good"
+                ],
+            ]
+        },
+        {
+            "prompt": "When did you leave your previous job?",
+            "sampleResponses": [
+                [
+                    "My manager was so unprofessional!",
+                    "Bad"
+                ],
+                [
+                    "Oh, well, the company started bleeding cash and was on its way to bankruptcy.",
+                    "Bad"
+                ],
+                [
+                    "Things started to get really boring, and the boss man was kind of mean. I totally deserve better, so I just ghosted them and now I’m looking for a new company. Hi!",
+                    "Bad"
+                ],
+                [
+                    "I got fired for missing work for a week without an excuse.",
+                    "Bad"
+                ],
+                [
+                    "I quit my job because I didn’t like it. That’s all. It didn’t suit me.",
+                    "Bad"
+                ],
+                [
+                    "I got fired because I did not get along with my supervisor. We went together like peanut butter and asparagus. She was the asparagus. Obviously.",
+                    "Bad"
+                ],
+                [
+                    "I haven’t quite figured out what I want to do yet. That’s why I’ve been moving around trying things on for size.",
+                    "Bad"
+                ],
+                [
+                    "It was too stressful and unrewarding. There was no support from senior management at all. I took a less stressful role elsewhere but for the same wage.",
+                    "Bad"
+                ],
+                [
+                    "We were sabotaged by upper management and the work conditions were unbearable.  They fired 75% of our team, resulting in 70+ hour weeks and 24/7 on-call shifts.  I got my review that year and no raise...they gave me a year end bonus of $36.  That is less than one hour of pay for me.  I felt insulted and had a new job literally the next day.",
+                    "Bad"
+                ],
+                [
+                    "We had a security situation and the manager fucked up and tried to pin it on me, even though I did exactly what I was trained to do according to policy, so I left.",
+                    "Bad"
+                ],
+                [
+                    "I was fired because my depression was affecting my output.",
+                    "Bad"
+                ],
+                [
+                    "I'm going to quit my job this week (only been there 3 months) but the environment and my coworkers are toxic in every possible way; my mental health has taken a nosedive as a result.",
+                    "Bad"
+                ],
+                [
+                    "Just say that the atmosphere was uncomfortable and that it caused you too much stress.",
+                    "Bad"
+                ],
+                [
+                    "It was a scheduling issue. An unstable schedule prevented me from having a proper-work life balance, and even prevented me from accomplishing basic tasks of my job. Thing is, other places I apply to expect me to be flexible with scheduling, and I am, but this one job I left was way too extreme.",
+                    "Bad"
+                ],
+                [
+                    "I felt like the job didn’t align with my career aspirations. I decided that I wanted to work as a C++ developer, but the job I worked was that of a web developer.",
+                    "Good"
+                ],
+                [
+                    "I excelled at my last job, achieved all the KPIs, and managed to complete Project X successfully and on time, all this over the 5 years I was working there. Despite it all, I didn’t get promoted to the management position, which I found very demotivating.",
+                    "Good"
+                ],
+                [
+                    "I realized that Company X wasn’t giving me the growth opportunities I need at this stage of my career.",
+                    "Good"
+                ],
+                [
+                    "I left Company X because Company Y offered me a better position.",
+                    "Good"
+                ],
+                [
+                    "I recently had a child and wanted to free up my time by switching to a freelancing arrangement.",
+                    "Good"
+                ],
+                [
+                    "I wanted to move to Jackson, Wyoming, and so I looked for a company that offered the option to work remotely.",
+                    "Good"
+                ],
+                [
+                    "When my supervisor left the company, the work environment was just not the same. Their replacement was a bit too micromanaging, which is not something I like in a job.",
+                    "Good"
+                ],
+                [
+                    "I had a family emergency and had to take care of my mother full-time for a few months.",
+                    "Good"
+                ],
+                [
+                    "The job didn’t actually match the job description. I was expecting to work as a React developer (which is the skill I wanted to develop), but it instead involved working with a very obscure framework that is not related to my desired career path.",
+                    "Good"
+                ],
+                [
+                    "The project I was working on got canceled, and as the company didn’t have any openings in other projects they had to let me go. That said, I’m still very close with the management team at Company X, and if you’d like, I can provide a reference.",
+                    "Good"
+                ],
+                [
+                    "I was fired because of a mismatch between the job and my understanding of it. I expected for the role to be more focused on illustrations (which is what I excel at), but I ended up doing a lot of UX/UI work instead, which isn’t necessarily my strong suit, nor what I want to do with my career. As such, I underperformed at the role, and the management just didn’t like my output.",
+                    "Good"
+                ],
+                [
+                    "My manager was micromanaging the team’s work too much, which led to decreased productivity.",
+                    "Good"
+                ],
+                [
+                    "The last company I got hired in just wasn’t what I expected. The hiring manager didn’t communicate the role well enough. As you already know, I’m a copywriter - I write sales copy. I work with: -Landing pages -Email marketing -And sales pages Around a week after I started work at the company, I realized that they were actually looking for something completely different. They asked me to write generic blog and social media posts, which is pretty far off from what I do.",
+                    "Good"
+                ],
+                [
+                    "Well, as a start, my first job was in a big corporation straight out of university. While I did learn a lot there about Software Engineering practices, I also learned that a huge company with lots of regulations, rules, and the like isn’t for me. So, at the end of my internship there, I decided to try working at a startup. I enjoyed that job a LOT more, as it gave me a lot of freedom when it comes to problem-solving. I wasn't told HOW to do it. Rather, I was given the option of coming up with my own solution. Unfortunately, the company went belly-up after failing to raise money, putting me back on the job market. And here we are - [Company X] is pretty much THE place I’ve always wanted to work in. I’ve heard a lot about your company culture, and thought I’d really belong there.",
+                    "Good"
+                ],
+                [
+                    "I felt like it was time - I got to a point where everything I was doing felt monotonous. I learned as much as I could at this position while delivering amazing results. It was, however, time to switch to something new.",
+                    "Good"
+                ],
+                [
+                    "I didn’t feel like the company’s values coincide with mine. The management was too controlling and micromanaging. I prefer to have some control over my work, and being able to contribute by going above and beyond my requirements.",
+                    "Good"
+                ],
+                [
+                    "I was fired, actually. The fault was in my communication skills at the time. I misunderstood my supervisor’s instructions and ended ended up setting a higher monthly spend on ad account for the client. The losses were not more than 3-figures, but apparently, the relationship with the client was already strained, so they ended up leaving.",
+                    "Good"
+                ],
+                [
+                    "Of course, I really took this to heart and worked very hard on improving my communication skills, to ensure that I don’t make any mistakes of this nature ever again.",
+                    "Good"
+                ],
+                [
+                    "I quit my job to pursue new opportunities and take a new step in my career.",
+                    "Good"
+                ],
+                [
+                    "I’m leaving my current job to pivot into a different industry. As you can see, I left on good terms with my former employer as he is one of my references.",
+                    "Good"
+                ],
+                [
+                    "I spent less than a year in my last position because of corporate layoffs. Now, I know that I want to work for a smaller company that is more involved in my local community.",
+                    "Good"
+                ],
+            ]
+        },
+    ]
+}
+// fix JSON errors
+// Add bad responses to Question 3
