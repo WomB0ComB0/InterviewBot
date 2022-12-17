@@ -1,4 +1,10 @@
+from dotenv import load_dotenv
+import os
+
 import cohere
+
+
+apiKey = os.getenv("COHERE_API_KEY")
 
 DEFAULT_MODEL_SIZE = "medium"
 
