@@ -8,6 +8,8 @@ cohere = "*"
 python-dotenv = "*"
 flask = "*"
 waitress = "*"
+sqlalchemy = "*"
+psycopg2 = "*"
 
 [dev-packages]
 

@@ -3,7 +3,7 @@ from sqlalchemy.orm import Session
 from server.db.schema import Prompt, Response
 
 
-class DbClient():
+class DbClient:
     def __init__(self, address) -> None:
         self.session = Session(create_engine(address))
 
@@ -11,11 +11,7 @@ class DbClient():
         return self.session.query(Prompt).all()
 
     def insertPrompt(self, query):
-        prompt = Prompt(
-            id="",
-            query=query,
-            createdAt=123
-        )
+        prompt = Prompt(id="", query=query, createdAt=123)
         self.session.add(prompt)
         self.session.commit()
 
@@ -28,7 +24,7 @@ class DbClient():
             promptId=promptId,
             content=content,
             sentiment=sentiment,
-            createdAt=123
+            createdAt=123,
         )
         self.session.add(response)
         self.session.commit()
