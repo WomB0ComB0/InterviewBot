@@ -16,7 +16,7 @@ class App(Flask):
         serve(self, host=host, port=port)
 
 
-# TODO: make this take in command
+# TODO: create entrypoint for server
 if __name__ == "__main__":
     ir = InterviewResource()
     server = App(ir)
