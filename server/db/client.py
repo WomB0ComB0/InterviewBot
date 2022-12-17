@@ -5,7 +5,6 @@ from server.db.schema import Prompt, Response
 
 class DbClient():
     def __init__(self, address) -> None:
-        # self.conn=create_engine(address) # creates the connection
         self.session = Session(create_engine(address))
 
     def getPrompts(self):
