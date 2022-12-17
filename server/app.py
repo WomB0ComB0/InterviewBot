@@ -14,10 +14,3 @@ class App(Flask):
     def start(self, host: str, port: int):
         self.log.info(f"host {host} running on port {port}")
         serve(self, host=host, port=port)
-
-
-# TODO: create entrypoint for server
-if __name__ == "__main__":
-    ir = InterviewResource()
-    server = App(ir)
-    server.start("localhost", 8009)
