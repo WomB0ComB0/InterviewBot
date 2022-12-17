@@ -1,6 +1,11 @@
 from cohere.classify import Example
 import cohere
-co = cohere.Client('rQqHCRnyHOS8JLTNbvYPzdrSwqu6fb0qwxD4MXvu')
+import dotenv
+import os
+
+dotenv.load_dotenv()
+
+co = cohere.Client(os.getenv("COHERE_API_KEY"))
 
 # 4. Where do you see yourself in 5 years?
 examples = [

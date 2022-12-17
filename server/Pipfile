@@ -4,6 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+cohere = "*"
+python-dotenv = "*"
 flask = "*"
 waitress = "*"
 
