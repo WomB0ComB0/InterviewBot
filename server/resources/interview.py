@@ -1,9 +1,11 @@
 from flask import Blueprint, jsonify, Response
+from server.clients.cohere import CohereClient
 
 # resource to handle the endpoints related to interviewing
 class InterviewResource(Blueprint):
-    def __init__(self):
+    def __init__(self, cohere_client: CohereClient):
         super().__init__("interview", __name__)
+        self.cohere_client = cohere_client
         self.add_url_rule("/prompts", view_func=self.get_prompts, methods=["GET"])
         self.add_url_rule("/answer", view_func=self.answer_prompt, methods=["POST"])
 
