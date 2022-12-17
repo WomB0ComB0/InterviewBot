@@ -1,30 +1,36 @@
 from cohere.classify import Example
 import cohere
-co = cohere.Client('rQqHCRnyHOS8JLTNbvYPzdrSwqu6fb0qwxD4MXvu')
+import dotenv
+import os
+
+dotenv.load_dotenv()
+
+co = cohere.Client(os.getenv("COHERE_API_KEY"))
 
 # 3. What is your greatest weakness
 examples = [
     # bad
-    Example("lorem", "Bad"),  # 1
-    Example("lorem", "Bad"),  # 2
-    Example("lorem", "Bad"),  # 3
-    Example("lorem", "Bad"),  # 4
-    Example("lorem", "Bad"),  # 5
-    Example("lorem", "Bad"),  # 6
-    Example("lorem", "Bad"),  # 7
-    Example("lorem", "Bad"),  # 8
-    Example("lorem", "Bad"),  # 9
-    Example("lorem", "Bad"),  # 10
-    Example("lorem", "Bad"),  # 11
-    Example("lorem", "Bad"),  # 12
-    Example("lorem", "Bad"),  # 13
-    Example("lorem", "Bad"),  # 14
-    Example("lorem", "Bad"),  # 15
-    Example("lorem", "Bad"),  # 16
-    Example("lorem", "Bad"),  # 17
-    Example("lorem", "Bad"),  # 18
-    Example("lorem", "Bad"),  # 19
-    Example("lorem", "Bad"),  # 20
+    Example("I am the perfect being and have no weaknesses. My biggest strength is my self-confidence.", "Bad"),  # 1
+    Example(
+        "My greatest weakness is an overabundance of my greatest strength", "Bad"),  # 2
+    Example("I forget to put exclamation points on every other sentence in emails and therefore get accused of being rude", "Bad"),  # 3
+    Example("My greatest weakness is that I’m a perfectionist. My strength is that I’m a perfectionist.", "Bad"),  # 4
+    Example("My complete lack of social skills.", "Bad"),  # 5
+    Example("Deep-seated fear of rejection. There's more, the cracks spread throughout after all, but that's the core of it.", "Bad"),  # 6
+    Example("Heavy pessimism.....I cause my pain.", "Bad"),  # 7
+    Example("The only one I can struggle with is myself. I let the person and things occupy space in my head.", "Bad"),  # 8
+    Example("My refusal to try and sell myself short.", "Bad"),  # 9
+    Example("Being scared of shit that is not going to happen.", "Bad"),  # 10
+    # Example("lorem", "Bad"),  # 11
+    # Example("lorem", "Bad"),  # 12
+    # Example("lorem", "Bad"),  # 13
+    # Example("lorem", "Bad"),  # 14
+    # Example("lorem", "Bad"),  # 15
+    # Example("lorem", "Bad"),  # 16
+    # Example("lorem", "Bad"),  # 17
+    # Example("lorem", "Bad"),  # 18
+    # Example("lorem", "Bad"),  # 19
+    # Example("lorem", "Bad"),  # 20
 
     # good
     Example("I tend to be overly critical of myself. Whenever I complete a project, I can’t help but feel that I could have done more even if my work received a positive response. This often leads me to overwork myself and leaves me feeling burned out. Over the past few years, I’ve tried to take time to look at my achievements objectively and celebrate those wins. This has not only improved my work and my confidence, but it has helped me to appreciate my team and other support systems that are always behind me in everything I do. ", "Good"),  # 1
