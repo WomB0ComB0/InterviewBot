@@ -1,4 +1,4 @@
-from flask import Blueprint, jsonify, Response
+from flask import Blueprint, jsonify, Response, request
 from server.cohere.client import CohereClient
 from server.db.client import DbClient
 
@@ -13,8 +13,9 @@ class InterviewResource(Blueprint):
         self.add_url_rule("/answer", view_func=self.answer_prompt, methods=["POST"])
 
     def get_prompts(self) -> Response:
-        return jsonify(prompts=["prompt1", "prompt2", "prompt3"])
+        prompts = self.db_client.get_prompts()
+        res = [prompt.to_dict() for prompt in prompts]
+        return jsonify(data=res)
 
-    # TODO: implement
     def answer_prompt(self) -> Response:
         return {"score": 99}

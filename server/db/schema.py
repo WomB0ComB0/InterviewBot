@@ -12,6 +12,13 @@ class Prompt(Base):
     query = Column(String)
     createdAt = Column(BigInteger)
 
+    def to_dict(self):
+        return {
+            "id": self.id,
+            "query": self.query,
+            "created_at": self.createdAt,
+        }
+
     def __repr__(self):
         return f"<Prompt(id={self.id}, query={self.query}, createdAt={self.createdAt})"
 
@@ -40,6 +47,15 @@ class Response(Base):
     content = Column(String)
     sentiment = Column(Enum(SentimentType))
     createdAt = Column(BigInteger)
+
+    def to_dict(self):
+        return {
+            "id": self.id,
+            "prompt_id": self.promptId,
+            "content": self.content,
+            "sentiment": self.sentiment,
+            "created_at": self.createdAt,
+        }
 
     def __repr__(self):
         return f"<Response(id={self.id}, promptId={self.promptId}, content={self.content},sentiment={self.sentiment}, createdAt={self.createdAt})"
