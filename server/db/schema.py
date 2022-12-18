@@ -16,7 +16,7 @@ class Prompt(Base):
         return {
             "id": self.id,
             "query": self.query,
-            "created_at": self.createdAt,
+            "createdAt": self.createdAt,
         }
 
     def __repr__(self):
@@ -51,10 +51,10 @@ class Response(Base):
     def to_dict(self):
         return {
             "id": self.id,
-            "prompt_id": self.promptId,
+            "promptId": self.promptId,
             "content": self.content,
             "sentiment": self.sentiment,
-            "created_at": self.createdAt,
+            "createdAt": self.createdAt,
         }
 
     def __repr__(self):
