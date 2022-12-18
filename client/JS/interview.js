@@ -1,4 +1,5 @@
-
+import React from 'react';
+import ReactDOM from 'react-dom';
 
 // This is for permission to use microphone
 function getLocalStream() {
