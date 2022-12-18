@@ -35,8 +35,8 @@ class AppConfig:
             load_dotenv()
 
         return AppConfig(
-            app_host=os.getenv("APP_HOST"),
-            app_port=int(os.getenv("APP_PORT")),
+            app_host=os.getenv("HOST"),
+            app_port=int(os.getenv("PORT")),
             cohere_api_key=os.getenv("COHERE_API_KEY"),
             db_address=os.getenv("DB_ADDRESS"),
         )
