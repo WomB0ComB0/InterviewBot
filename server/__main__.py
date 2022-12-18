@@ -1,9 +1,9 @@
-from server.config import AppConfig
-from server.resources.interview import InterviewResource
-from server.cohere.client import CohereClient
-from server.db.client import DbClient
-from server.db.schema import SentimentType
-from server.app import App
+from config import AppConfig
+from app.resources.interview import InterviewResource
+from app.clients.cohere import CohereClient
+from app.clients.db import DbClient
+from app.database.schema import SentimentType
+from app.server import App
 import click
 import json
 

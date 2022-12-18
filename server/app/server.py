@@ -1,7 +1,7 @@
 from flask import Flask
 from waitress import serve
-from server.resources.interview import InterviewResource
-from server.utils import new_logger
+from app.resources.interview import InterviewResource
+from app.utils import new_logger
 
 
 # represents out REST server

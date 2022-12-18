@@ -12,7 +12,7 @@ class Environment(Enum):
     def value_of(item: str) -> "Environment":
         type_map = {"prod": Environment.PROD, "dev": Environment.DEV}
 
-        enum_val = type_map.get(item, None)
+        enum_val = type_map.get(item.lower(), None)
 
         if enum_val is None:
             raise ValueError(f"{item} is not a valid enum value")
