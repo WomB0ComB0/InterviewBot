@@ -37,8 +37,6 @@ class InterviewResource(Blueprint):
 
         score, sentiment = self.cohere_client.get_analysis(sample_responses, answer)
 
-        id = self.db_client.insert_response(prompt_id, answer, sentiment)
-
-        print("inserted response " + id)
+        self.db_client.insert_response(prompt_id, answer, sentiment)
 
         return jsonify(score=score)
