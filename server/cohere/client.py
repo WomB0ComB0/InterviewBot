@@ -1,6 +1,7 @@
 import cohere
-from server.db.schema import SentimentType
-from typing import Tuple
+from cohere.classify import Example
+from server.db.schema import SentimentType, Response
+from typing import Tuple, List
 
 DEFAULT_MODEL_SIZE = "medium"
 
@@ -10,12 +11,17 @@ class CohereClient:
         self.client = cohere.Client(apiKey)
 
     def get_analysis(
-        self, exampleResponses, actualResponse
-    ) -> Tuple[int, SentimentType]:
+        self, responses: List[Response], response: str
+    ) -> Tuple[float, SentimentType]:
+        examples = [
+            Example(response.content, response.sentiment.value)
+            for response in responses
+        ]
+
         response = self.client.classify(
             model=DEFAULT_MODEL_SIZE,
-            inputs=[actualResponse],
-            examples=exampleResponses,
+            inputs=[response],
+            examples=examples,
         )
 
         result = response.classifications[0]

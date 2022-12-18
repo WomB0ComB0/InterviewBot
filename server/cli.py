@@ -42,7 +42,7 @@ def runserver(env):
     cohere_client = CohereClient(cfg.cohere_api_key)
     db_client = DbClient(cfg.db_address)
 
-    interview_resource = InterviewResource(cohere_client)
+    interview_resource = InterviewResource(cohere_client, db_client)
 
     app = App(interview_resource)
 

@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import Session
 from server.db.schema import Prompt, Response, SentimentType
 from server.utils import time_now, generate_uuid
-from typing import List
+from typing import List, Optional
 
 
 class DbClient:
@@ -11,6 +11,9 @@ class DbClient:
 
     def get_prompts(self) -> List[Prompt]:
         return self.session.query(Prompt).all()
+
+    def get_prompt(self, id: str) -> Optional[Prompt]:
+        return self.session.query(Prompt).filter_by(id=id).one_or_none()
 
     def insert_prompt(self, query: str) -> str:
         id = generate_uuid()
