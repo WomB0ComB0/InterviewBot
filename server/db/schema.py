@@ -24,7 +24,7 @@ class SentimentType(enum.Enum):
     def value_of(item: str) -> "SentimentType":
         type_map = {"bad": SentimentType.BAD, "good": SentimentType.GOOD}
 
-        enum_val = type_map.get(item, None)
+        enum_val = type_map.get(item.lower(), None)
 
         if enum_val is None:
             raise ValueError(f"{item} is not a valid enum value")
