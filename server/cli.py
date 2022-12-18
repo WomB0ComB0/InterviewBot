@@ -15,7 +15,7 @@ def cmdln():
 
 @cmdln.command("populate-db")
 @click.option("--env")
-def runserver(env):
+def populate(env):
     cfg = AppConfig.new_config(env)
     db_client = DbClient(cfg.db_address)
 
