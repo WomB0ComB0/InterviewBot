@@ -9,7 +9,9 @@ class CohereClient:
     def __init__(self, apiKey) -> None:
         self.client = cohere.Client(apiKey)
 
-    def getScore(self, exampleResponses, actualResponse) -> Tuple[int, SentimentType]:
+    def get_analysis(
+        self, exampleResponses, actualResponse
+    ) -> Tuple[int, SentimentType]:
         response = self.client.classify(
             model=DEFAULT_MODEL_SIZE,
             inputs=[actualResponse],
