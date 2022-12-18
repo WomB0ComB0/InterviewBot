@@ -10,6 +10,7 @@ flask = "*"
 waitress = "*"
 sqlalchemy = "*"
 psycopg2 = "*"
+click = "*"
 
 [dev-packages]
 
