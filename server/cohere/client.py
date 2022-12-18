@@ -20,7 +20,7 @@ class CohereClient:
 
         result = response.classifications[0]
 
-        sentiment = SentimentType.value_of(result.prediction.lower())
+        sentiment = SentimentType.value_of(result.prediction)
         score = result.confidence * 100
 
         if sentiment == SentimentType.BAD:
