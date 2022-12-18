@@ -35,8 +35,8 @@ window.addEventListener("load", function(){
         let fields = document.querySelectorAll(".concat .form-control")
         let valid = true
         for (var i = 0; i < fields.length; i++){
-            field[i].classList.removeP{"no-error"}
-            if(fields[i].valie === ""){
+            field[i].classList.remove("no-error")
+            if(fields[i].valid === ""){
                 fields[i].classList.add("has-error")
                 fields[i].nextElementSibling.stlye.display = "block"
                 valid = false
@@ -47,7 +47,7 @@ window.addEventListener("load", function(){
             }
         }
         if(valid){
-            console.log("it is valid")
+            console.log("it is valid");
 
         }
     })
