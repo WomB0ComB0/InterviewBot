@@ -20,6 +20,17 @@ class SentimentType(enum.Enum):
     BAD = "bad"
     GOOD = "good"
 
+    @classmethod
+    def value_of(item: str) -> "SentimentType":
+        type_map = {"bad": SentimentType.BAD, "good": SentimentType.GOOD}
+
+        enum_val = type_map.get(item, None)
+
+        if enum_val is None:
+            raise ValueError(f"{item} is not a valid enum value")
+
+        return enum_val
+
 
 class Response(Base):
     __tablename__ = "responses"
