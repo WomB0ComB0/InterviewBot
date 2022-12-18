@@ -20,7 +20,7 @@ class SentimentType(enum.Enum):
     BAD = "bad"
     GOOD = "good"
 
-    @classmethod
+    @staticmethod
     def value_of(item: str) -> "SentimentType":
         type_map = {"bad": SentimentType.BAD, "good": SentimentType.GOOD}
 
