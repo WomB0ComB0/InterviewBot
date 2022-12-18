@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import Session
-from server.db.schema import Prompt, Response, SentimentType
-from server.utils import time_now, generate_uuid
+from app.database.schema import Prompt, Response, SentimentType
+from app.utils import time_now, generate_uuid
 from typing import List, Optional
 
 

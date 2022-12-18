@@ -1,6 +1,6 @@
 import cohere
 from cohere.classify import Example
-from server.db.schema import SentimentType, Response
+from app.database.schema import SentimentType, Response
 from typing import Tuple, List
 
 DEFAULT_MODEL_SIZE = "medium"
