@@ -485,7 +485,7 @@
             ]
         },
         {
-            "prompt": "When did you leave your previous job?",
+            "prompt": "Why did you leave your previous job?",
             "sampleResponses": [
                 [
                     "My manager was so unprofessional!",

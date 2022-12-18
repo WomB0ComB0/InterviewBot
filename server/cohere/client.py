@@ -12,7 +12,7 @@ class CohereClient:
 
     def get_analysis(
         self, responses: List[Response], response: str
-    ) -> Tuple[int, SentimentType]:
+    ) -> Tuple[float, SentimentType]:
         examples = [
             Example(response.content, response.sentiment.value)
             for response in responses
